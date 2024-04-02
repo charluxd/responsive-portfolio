@@ -86,6 +86,10 @@ p {
   padding: 16px 32px;
 }
 
+.btn-links .btn {
+  margin: 8px;
+}
+
 .project-desciption {
   padding: 120px 64px;
 }
