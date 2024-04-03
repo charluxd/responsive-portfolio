@@ -29,6 +29,11 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
 h5,
 h6 {
   font-family: var(--default-font-family);
@@ -60,11 +65,11 @@ p {
   font-size: 24px;
 }
 
-.about {
-  padding: 120px 24px;
+.content-container {
+  padding: 120px 80px;
 }
 
-.about-content {
+.content {
   margin: 32px;
 }
 
@@ -94,7 +99,7 @@ p {
   padding: 120px 64px;
 }
 
-.about h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.2;
 }
@@ -118,7 +123,7 @@ p {
     text-align: center;
   }
 
-  .about {
+  .content-container {
     padding: 0;
   }
 }
