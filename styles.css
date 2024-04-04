@@ -65,8 +65,39 @@ p {
   font-size: 24px;
 }
 
+.shecodes-logo {
+  height: 40px;
+}
+
+nav {
+  padding: 24px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
 .content-container {
-  padding: 120px 80px;
+  padding: 40px 80px;
 }
 
 .content {
@@ -104,6 +135,15 @@ p {
   line-height: 1.2;
 }
 
+.contacts a{
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -126,4 +166,8 @@ p {
   .content-container {
     padding: 0;
   }
+}
+
+@media(max-width:440px) {
+  
 }
