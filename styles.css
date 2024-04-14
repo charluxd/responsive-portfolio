@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 52px;
 }
 
 h3 {
@@ -41,7 +41,7 @@ h6 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -122,12 +122,16 @@ nav ul {
   padding: 16px 32px;
 }
 
+.btn-branding:hover, .btn-branding-outline:hover {
+  text-decoration: none;
+}
+
 .btn-links .btn {
   margin: 8px;
 }
 
 .project-desciption {
-  padding: 120px 64px;
+  padding: 64px;
 }
 
 .content h1 {
@@ -188,7 +192,7 @@ footer .email:hover {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   .hero {
